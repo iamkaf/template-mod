@@ -1,14 +1,19 @@
 package com.iamkaf.template;
 
+import com.iamkaf.amber.api.core.AmberMod;
 import com.iamkaf.registry.CreativeModeTabs;
 import com.iamkaf.registry.Items;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 
-public final class Template {
+public class Template extends AmberMod {
     public static final String MOD_ID = "template";
     public static final Logger LOGGER = LogUtils.getLogger();
+
+    public Template() {
+        super(MOD_ID);
+    }
 
     public static void init() {
         LOGGER.info("Kaf template.");
