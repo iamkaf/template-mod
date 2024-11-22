@@ -1,4 +1,4 @@
-package com.iamkaf.registry;
+package com.iamkaf.template.registry;
 
 import com.iamkaf.template.Template;
 import dev.architectury.registry.CreativeTabRegistry;

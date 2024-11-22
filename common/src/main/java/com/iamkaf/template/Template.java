@@ -1,8 +1,8 @@
 package com.iamkaf.template;
 
 import com.iamkaf.amber.api.core.AmberMod;
-import com.iamkaf.registry.CreativeModeTabs;
-import com.iamkaf.registry.Items;
+import com.iamkaf.template.registry.CreativeModeTabs;
+import com.iamkaf.template.registry.Items;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
