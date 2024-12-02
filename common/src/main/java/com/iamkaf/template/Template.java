@@ -27,6 +27,6 @@ public class Template extends AmberMod {
      * Creates resource location in the mod namespace with the given path.
      */
     public static ResourceLocation resource(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+        return new ResourceLocation(MOD_ID, path);
     }
 }
